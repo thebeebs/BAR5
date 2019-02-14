@@ -1,4 +1,4 @@
-# Cloud backend for real-time applications
+# Cloud Backend for Real-Time Applications
 
 Demos for the Reatime talk at BuildersDay
 
