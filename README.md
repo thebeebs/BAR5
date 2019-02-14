@@ -3,4 +3,6 @@
 Demos for the Reatime talk at BuildersDay
 
 - Demo: SignalR
-- Demo: API Gateway
+- Demo: API Gateway WebSocket Echo
+- Demo: Event comments
+- Demo: Kinesis Data Analysis
