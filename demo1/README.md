@@ -1,6 +1,6 @@
 # Signal R Demo
 
-Go to the Website http://devdays.thebeebs.org/management
+Go to the Website http://devdays.thebeebs.org/home/management
 
 You will see a slide deck with a QR code.
 
