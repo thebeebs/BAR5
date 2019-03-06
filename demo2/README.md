@@ -1,4 +1,6 @@
 
+Demo Originally comes from: https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/
+
 1. Show the SAM Template Bookmarked in builders day: https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:729047367331:applications~simple-websockets-chat-app
 2. Create a new WebSocket API
 1. In the API Gateway console, choose Create API, New API.
