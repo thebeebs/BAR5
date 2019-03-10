@@ -2,10 +2,32 @@
 
 Please watch the Video Demo 3 in Work Docs. 
 
-Before the demo:
-Clone the project https://github.com/aws-samples/aws-mobile-appsync-events-starter-react
+1. Navigate to the AWS AppSync console using the URL: http://console.aws.amazon.com/appsync/home
 
-Run `yarn` at the base of the folder and `yarn start` before the talk to ensure the app is working.
+2. Click on `Create API` and select the `Event App` under the `sample project` in the bottom pane, and select `Start`. Enter a API name of your choice. Click `Create`.
+
+
+## React Setup
+
+First, clone this repo:
+
+```
+git clone https://github.com/aws-samples/aws-mobile-appsync-events-starter-react.git
+cd ./aws-mobile-appsync-events-starter-react
+```
+
+Wait until the progress bar at the top has completed deploying your resources. Then from the integration page of your GraphQL API (you can click the name you entered in the left hand navigation). 
+
+On this same page, select `JavaScript` at the bottom to download your `aws-exports.js` configuration file by clicking the **Download Config** button. Replace the `aws-exports.js` file in the root of your app with the file you just downloaded.
+
+Start the application:
+
+```
+yarn
+yarn start
+```
+
+## On Stage
 
 1. Go the the AWS console
 2. Open the AppSync Console
@@ -53,31 +75,6 @@ query ListEvents {
 ```
 23. You can then add a comment to the app and show that the event fires in the console and retuns data to the subscriber.
 ## AWS Setup
-
-1. Navigate to the AWS AppSync console using the URL: http://console.aws.amazon.com/appsync/home
-
-2. Click on `Create API` and select the `Event App` under the `sample project` in the bottom pane, and select `Start`. Enter a API name of your choice. Click `Create`.
-
-
-## React Setup
-
-First, clone this repo:
-
-```
-git clone https://github.com/aws-samples/aws-mobile-appsync-events-starter-react.git
-cd ./aws-mobile-appsync-events-starter-react
-```
-
-Wait until the progress bar at the top has completed deploying your resources. Then from the integration page of your GraphQL API (you can click the name you entered in the left hand navigation). 
-
-On this same page, select `JavaScript` at the bottom to download your `aws-exports.js` configuration file by clicking the **Download Config** button. Replace the `aws-exports.js` file in the root of your app with the file you just downloaded.
-
-Start the application:
-
-```
-yarn
-yarn start
-```
 
 ## Application Walkthrough
 

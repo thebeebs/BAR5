@@ -1,7 +1,0 @@
-{
-  "name": "echo",
-  "dependencies": {
-    "short-uuid": "3.1.0",
-    "ws": "6.1.2"
-  }
-}

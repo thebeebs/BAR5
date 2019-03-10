@@ -1,5 +1,7 @@
 
-Demo Originally comes from: https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/
+# Demo Originally comes from: 
+https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/
+
 
 1. Show the SAM Template Bookmarked in builders day: https://serverlessrepo.aws.amazon.com/applications/arn:aws:serverlessrepo:us-east-1:729047367331:applications~simple-websockets-chat-app
 2. Create a new WebSocket API
@@ -15,9 +17,9 @@ Demo Originally comes from: https://aws.amazon.com/blogs/compute/announcing-webs
 10. Deploy the api to dev
 11. wscat -c wss://{YOUR-API-ID}.execute-api.{YOUR-REGION}.amazonaws.com/{STAGE} (you will need to install wscat)
 12. {"action":"sendmessage", "data":"hello world"}
-13. Send users to thebeebs.uk/chat. Create you own version of this fiddle. 
+13. Send users to thebeebs.uk/chat. Create you own version of this fiddle. (You will want to fork my pen and create a short URL using something like http://bit.ly)
 14. Replace the API URL. Connect to the socket.
-15. Save the CodePen and encourage others to visit the website.
+15. Save the CodePen and encourage others to visit the website. Allow the audience to chat in realtime. 
 
 
 
